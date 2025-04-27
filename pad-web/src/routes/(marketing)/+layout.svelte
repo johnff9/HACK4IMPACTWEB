@@ -11,18 +11,19 @@
 
 <div class="navbar bg-base-100 container mx-auto">
   <div class="flex-1">
-    <a class="btn btn-ghost normal-case text-xl" href="/">{WebsiteName}</a>
+    <a class="btn btn-ghost normal-case text-xl" href="/">
+      <img src="/images/padAiLOGO.png" alt="padAi Logo" class="h-40" />
+    </a>
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1 hidden sm:flex font-bold text-lg">
       <li class="md:mx-4">
         <a
-          href="https://github.com/CriticalMoments/CMSaasStarter"
-          class="border border-primary">★ us on Github</a
+          href="https://github.com/johnff9/Hack4Impact.git"
+          class="border border-primary">OpenSource Extension</a
         >
       </li>
-      <li class="md:mx-2"><a href="/blog">Blog</a></li>
-      <li class="md:mx-2"><a href="/pricing">Pricing</a></li>
+      <li class="md:mx-2"><a href="/about">About</a></li>
       <li class="md:mx-2"><a href="/account">Account</a></li>
       <li class="md:mx-0">
         <a href="/search" aria-label="Search">
@@ -62,10 +63,10 @@
         tabindex="0"
         class="menu menu-lg dropdown-content mt-3 z-1 p-2 shadow-sm bg-base-100 rounded-box w-52 font-bold"
       >
-        <li><a href="/blog">Blog</a></li>
         <li><a href="/pricing">Pricing</a></li>
         <li><a href="/account">Account</a></li>
         <li><a href="/search">Search</a></li>
+        <li><a href="/about">About</a></li>
         <li>
           <a
             href="https://github.com/CriticalMoments/CMSaasStarter"
@@ -91,24 +92,18 @@
     <nav>
       <span class="footer-title opacity-80">Explore</span>
       <a class="link link-hover mb-1" href="/">Overview</a>
-      <a class="link link-hover my-1" href="/pricing">Pricing</a>
-      <a class="link link-hover my-1" href="/blog">Blog</a>
       <a class="link link-hover my-1" href="/contact_us">Contact Us</a>
+      <a class="link link-hover my-1" href="/about">About</a>
       <a
         class="link link-hover my-1"
         href="https://github.com/CriticalMoments/CMSaasStarter">Github</a
       >
     </nav>
     <aside>
-      <span class="footer-title opacity-80">Sponsor</span>
+      <span class="footer-title opacity-80">By: Will & Majora</span>
       <a class="max-w-[260px]" href="https://getkiln.ai">
-        <div class="font-bold text-3xl mb-1">Kiln AI</div>
-        <div class="font-medium mb-3">Build High Quality AI Products</div>
-        <div class="font-light">
-          Use advanced AI tactics, and collaborate with your team. Free apps for
-          Mac and Windows.
-        </div>
-        <div class="link text-sm font-bold mt-2">Learn More</div>
+        <div class="font-bold text-3xl mb-1">NSC Hack4Impact</div>
+        <div class="font-medium mb-3">Ensuring protection from AI</div>
       </a>
     </aside>
   </footer>

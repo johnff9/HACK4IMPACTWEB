@@ -1,0 +1,23 @@
+[
+  { "file": "/images/Fake/fake_25.jpg", "label": "deepfake" },
+  { "file": "/images/Fake/fake_26.jpg", "label": "deepfake" },
+  { "file": "/images/Fake/fake_56.jpg", "label": "deepfake" },
+  { "file": "/images/Fake/fake_72.jpg", "label": "deepfake" },
+  { "file": "/images/Fake/fake_431.jpg", "label": "deepfake" },
+  { "file": "/images/Fake/fake_444.jpg", "label": "deepfake" },
+  { "file": "/images/Fake/fake_447.jpg", "label": "deepfake" },
+  { "file": "/images/Fake/fake_466.jpg", "label": "deepfake" },
+  { "file": "/images/Fake/fake_506.jpg", "label": "deepfake" },
+  { "file": "/images/Fake/fake_778.jpg", "label": "deepfake" },
+  { "file": "/images/Real/real_1.jpg", "label": "real" },
+  { "file": "/images/Real/real_8.jpg", "label": "real" },
+  { "file": "/images/Real/real_48.jpg", "label": "real" },
+  { "file": "/images/Real/real_49.jpg", "label": "real" },
+  { "file": "/images/Real/real_50.jpg", "label": "real" },
+  { "file": "/images/Real/real_52.jpg", "label": "real" },
+  { "file": "/images/Real/real_53.jpg", "label": "real" },
+  { "file": "/images/Real/real_328.jpg", "label": "real" },
+  { "file": "/images/Real/real_350.jpg", "label": "real" },
+  { "file": "/images/Real/real_378.jpg", "label": "real" }
+]
+

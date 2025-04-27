@@ -3,6 +3,7 @@ import { defineConfig } from "vitest/config"
 import { buildAndCacheSearchIndex } from "./src/lib/build_index"
 
 export default defineConfig({
+  base: process.env.NODE_ENV === 'production' ? '' : '',
   plugins: [
     sveltekit(),
     {
