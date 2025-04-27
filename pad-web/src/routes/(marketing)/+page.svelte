@@ -228,6 +228,9 @@
   <!-- eslint-disable-next-line svelte/no-at-html-tags -->
   {@html jsonldScript}
 </svelte:head>
+<div
+style= "background-image: url('/images/hack4impact.jpg'); background-size:cover; background-repeat: no-repeat; "
+>
 <div class="hero min-h-[60vh]">
   <div class="hero-content text-center py-12">
     <div class="max-w-xl">
@@ -262,7 +265,7 @@
       <div
         class="mt-6 md:mt-4 flex flex-row flex-wrap gap-4 place-content-center"
       >
-        <a href="https://github.com/CriticalMoments/CMSaasStarter">
+        <a class="link link-hover my-1" href="/quiz">
           <button class="btn btn-primary px-6">Educational Quiz</button>
         </a>
         <a
@@ -297,7 +300,7 @@
       class="flex gap-6 mt-12 max-w-[1064px] mx-auto place-content-center flex-wrap"
     >
       {#each features as feature}
-        <div class="card bg-white w-[270px] min-h-[300px] flex-none shadow-xl">
+        <div class="card bg-gray w-[270px] min-h-[300px] flex-none shadow-xl">
           <div class="card-body items-center text-center p-[24px] pt-[32px]">
             <div>
               <svg
@@ -336,75 +339,4 @@
     </div>
   </div>
 </div>
-<div class="hero min-h-[60vh] mt-12">
-  <div class="hero-content text-center pb-16 pt-4 px-4">
-    <div class="max-w-lg">
-      <div
-        class="text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-linear-to-r from-primary to-accent mt-4 pb-2"
-      >
-        See it in Action
-      </div>
-      <div
-        class="flex flex-col lg:flex-row mt-6 gap-6 place-content-center content-center"
-      >
-        <div class="hidden md:block">
-          <a href="https://criticalmoments.io" target="_blank" class="link">
-            <div class="mockup-browser border">
-              <div class="mockup-browser-toolbar">
-                <div class="input" style="background:#eeee;">
-                  https://criticalmoments.io
-                </div>
-              </div>
-              <div class="flex justify-center">
-                <img
-                  alt="Screenshot of criticalmoments.io homepage"
-                  class="aspect-2044/1242"
-                  src="/images/example-home.png"
-                />
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="md:hidden">
-          <a href="https://criticalmoments.io" target="_blank" class="link">
-            <div class="card shadow-xl border overflow-hidden">
-              <img
-                alt="Screenshot of criticalmoments.io homepage"
-                class="aspect-2044/1242"
-                src="/images/example-home.png"
-              />
-            </div></a
-          >
-        </div>
-        <div class="min-w-[270px] lg:min-w-[420px] flex mt-6 lg:mt-0">
-          <div class="my-auto">
-            <div class="px-4 text-lg md:text-xl">
-              <a href="https://criticalmoments.io" class="" target="_blank"
-                >SaaS Starter was created by <span
-                  class="font-bold whitespace-nowrap">Critical Moments</span
-                >: a SDK to to help mobile apps
-                <span class="underline decoration-secondary decoration-[3px]"
-                  >increase conversion rates and app-ratings.</span
-                ></a
-              >
-            </div>
-            <div class="px-4 mt-6 text-lg md:text-xl">
-              Our <a
-                href="https://criticalmoments.io"
-                class="link font-bold"
-                target="_blank">webpage</a
-              > is the best example of SaaS Starter with style and real content.
-            </div>
-            <div class="mt-4 text-large">
-              <a href="https://criticalmoments.io" target="_blank">
-                <button class="btn btn-primary btn-wide mt-3"
-                  >See it in Action</button
-                >
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
